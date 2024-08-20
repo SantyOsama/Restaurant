@@ -1,0 +1,15 @@
+export { default as image1 } from "./Image1.png";
+export { default as image2 } from "./Image2.png";
+export { default as service1 } from "./service1.png";
+export { default as service2 } from "./service2.png";
+export { default as service3 } from "./service3.png";
+export { default as service4 } from "./service4.png";
+export { default as man } from "./man.png";
+export { default as pic1 } from "./pic1.png";
+export { default as pic2 } from "./pic2.png";
+export { default as food1 } from "./food1.png";
+export { default as food2 } from "./food2.png";
+export { default as food3 } from "./food3.png";
+export { default as food4 } from "./food4.png";
+export { default as vector } from "./Vector.png";
+export { default as about } from "./About.png";

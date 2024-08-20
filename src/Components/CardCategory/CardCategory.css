@@ -1,0 +1,21 @@
+.card-category {
+  border: 1px solid #dbdfd0;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card-category a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: small;
+}
+.card-category-title {
+  font-weight: bold;
+  font-family: "DM Sans";
+  font-size: large;
+}
+.card-category-description {
+  font-size: small;
+}

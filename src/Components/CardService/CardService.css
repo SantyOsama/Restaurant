@@ -1,0 +1,12 @@
+.card-service {
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card-service-title {
+  margin-top: 25px !important;
+  font-weight: bold;
+  font-family: "DM Sans";
+  font-size: 25px;
+}

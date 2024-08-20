@@ -1,0 +1,65 @@
+.header-paragraph {
+  background-color: #474747;
+  width: 99vw;
+  height: 30px;
+}
+.navbar-brand-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: xx-large;
+  color: #474747;
+  font-family: var(--font);
+}
+
+.custom-nav .nav-link-custom {
+  width: 5vw;
+  height: 25px;
+  text-align: center;
+  font-size: small;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.custom-nav .nav-link-custom.active {
+  background-color: var(--second-color);
+  border: 1px solid var(--second-color);
+  border-radius: 20px;
+}
+@media (max-width: 992px) {
+  .custom-nav .nav-link-custom.active {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: var(--main-color);
+    text-decoration-thickness: 3px;
+  }
+  .custom-nav .nav-link-custom:last-child {
+    margin-bottom: 10px;
+  }
+}
+
+.custom-nav .nav-link-custom:last-child {
+  margin-right: 0;
+}
+
+.btn-light {
+  border: 2px solid black !important;
+  border-radius: 50px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-weight: 500 !important;
+  font-size: small !important;
+}
+/* Center nav items when the navbar is collapsed */
+@media (max-width: 992px) {
+  .custom-nav .nav-link-custom {
+    margin-bottom: 10px;
+  }
+
+  .btn-light {
+    margin-top: 10px;
+  }
+}

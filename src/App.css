@@ -1,0 +1,12 @@
+:root {
+  --main-padding: 20px;
+  --font: "Playfair Display";
+  --main-color: #ad343e;
+  --second-color: #dbdfd0;
+}
+.App {
+  text-align: center;
+}
+.font-type {
+  font-family: var(--font);
+}

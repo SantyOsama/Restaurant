@@ -1,0 +1,49 @@
+.sec3 {
+  background-color: #f9f9f7;
+  margin-bottom: 50px;
+}
+.sec3-container {
+  position: relative;
+  max-width: 50%;
+  padding: 30px 10px;
+}
+@media (max-width: 768px) {
+  .sec3-container,
+  .sec3-content {
+    max-width: 100% !important;
+  }
+  .sec3-content {
+    padding-top: 50px;
+    padding-left: 10px !important;
+    padding-right: 10px;
+  }
+  .sec3-div1 {
+    flex-direction: column;
+  }
+}
+.sec3-container .sec3-picture img {
+  width: 100%;
+}
+
+.floating {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  top: 52%;
+  left: 42%;
+  width: 62%;
+  height: 50%;
+  background-color: #474747;
+  z-index: 10;
+  border: 1px solid #474747;
+  border-radius: 10px;
+  padding: 50px;
+}
+.sec3-content {
+  max-width: 50%;
+  padding-left: 50px;
+  flex-direction: column;
+  justify-content: center;
+}
